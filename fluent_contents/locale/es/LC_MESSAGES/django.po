@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fluent_contents\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-09 23:19-0500\n"
+"PO-Revision-Date: 2014-07-10 00:11-0600\n"
+"Last-Translator: David Loaiza M. <david@zooluciones.com>\n"
+"Language-Team: ES <webmaster@zooluciones.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: extensions/pluginbase.py:294
+#, python-format
+msgid "{No rendering defined for class '%s'}"
+msgstr "{No definido renderizado para la clase '%s'}"
+
+#: extensions/pluginbase.py:314
+msgid "Error:"
+msgstr "Error:"
+
+#: models/db.py:36
+msgid "Main content"
+msgstr "Contenido principal"
+
+#: models/db.py:37
+msgid "Sidebar content"
+msgstr "Contenido de la barra lateral"
+
+#: models/db.py:38
+msgid "Related content"
+msgstr "Contenido relacionado"
+
+#: models/db.py:41
+msgid "Slot"
+msgstr "Espacio"
+
+#: models/db.py:41
+msgid "A short name to identify the placeholder in the template code."
+msgstr ""
+"Un nombre corto para identificar el espacio reservado en el código de la "
+"plantilla"
+
+#: models/db.py:42
+msgid "Role"
+msgstr "Rol"
+
+#: models/db.py:42
+msgid "This defines where the object is used."
+msgstr "Esto define donde el objeto es usado."
+
+#: models/db.py:49
+msgid "Admin title"
+msgstr "Título de administración"
+
+#: models/db.py:55
+msgid "Placeholder"
+msgstr "Espacio reservado"
+
+#: models/db.py:56
+msgid "Placeholders"
+msgstr "Espacios reservados"
+
+#: models/db.py:240
+msgid "Contentitem link"
+msgstr "Enlace a elemento de contenido"
+
+#: models/db.py:241
+msgid "Contentitem links"
+msgstr "Enlaces a elementos de contenidos"
+
+#: plugins/code/backend.py:19
+msgid "Combinations"
+msgstr "Combinaciones"
+
+#: plugins/code/backend.py:20 plugins/iframe/content_plugins.py:14
+#: plugins/rawhtml/content_plugins.py:15
+#: plugins/sharedcontent/content_plugins.py:14
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: plugins/code/content_plugins.py:14 plugins/gist/content_plugins.py:14
+msgid "Programming"
+msgstr "Programación"
+
+#: plugins/code/models.py:13 plugins/markup/models.py:39
+msgid "Language"
+msgstr "Lenguaje"
+
+#: plugins/code/models.py:14
+msgid "Code"
+msgstr "Código"
+
+#: plugins/code/models.py:15
+msgid "Show line numbers"
+msgstr "Mostrar números de línea"
+
+#: plugins/code/models.py:18
+msgid "Code snippet"
+msgstr "Fragmento de código"
+
+#: plugins/code/models.py:19
+msgid "Code snippets"
+msgstr "Fragmentos de código"
+
+#: plugins/commentsarea/content_plugins.py:26
+#: plugins/disquswidgets/content_plugins.py:10
+#: plugins/formdesignerlink/content_plugins.py:33
+msgid "Interactivity"
+msgstr "Interactividad"
+
+#: plugins/commentsarea/models.py:13 plugins/disquswidgets/models.py:7
+msgid "Allow posting new comments"
+msgstr "Permitir la publicación de nuevos comentarios"
+
+#: plugins/commentsarea/models.py:16
+msgid "Comments area"
+msgstr "Área de comentarios"
+
+#: plugins/commentsarea/models.py:17
+msgid "Comments areas"
+msgstr "Áreas de comentarios"
+
+#: plugins/disquswidgets/models.py:10
+msgid "Disqus comments area"
+msgstr "Área de comentarios Disqus"
+
+#: plugins/disquswidgets/models.py:11
+msgid "Disqus comments areas"
+msgstr "Áreas de comentarios Disqus"
+
+#: plugins/formdesignerlink/models.py:8
+msgid "Form"
+msgstr "Formulario"
+
+#: plugins/formdesignerlink/models.py:11
+msgid "Form link"
+msgstr "Enlace a formulario"
+
+#: plugins/formdesignerlink/models.py:12
+msgid "Form links"
+msgstr "Enlaces a formularios"
+
+#: plugins/gist/models.py:9
+msgid "Gist number"
+msgstr "Número Gist"
+
+#: plugins/gist/models.py:9
+msgid ""
+"Go to <a href=\"https://gist.github.com/\" target=\"_blank\">https://gist."
+"github.com/</a> and copy the number of the Gist snippet you want to display."
+msgstr ""
+"Ir a <a href=\"https://gist.github.com/\" target=\"_blank\">https://gist."
+"github.com/</ a> y copiar el número del fragmento Gist que desea mostrar."
+
+#: plugins/gist/models.py:10
+msgid "Gist filename"
+msgstr "Nombre del archivo Gist"
+
+#: plugins/gist/models.py:10
+msgid "Leave the filename empty to display all files in the Gist."
+msgstr "Deje el nombre en blanco para mostrar todos los archivos del Gist."
+
+#: plugins/gist/models.py:13
+msgid "GitHub Gist snippet"
+msgstr "Fragmento GitHub Gist "
+
+#: plugins/gist/models.py:14
+msgid "GitHub Gist snippets"
+msgstr "Fragmentos GitHub Gist"
+
+#: plugins/googledocsviewer/content_plugins.py:23
+#: plugins/oembeditem/content_plugins.py:15
+#: plugins/picture/content_plugins.py:13
+#: plugins/twitterfeed/content_plugins.py:8
+msgid "Media"
+msgstr "Media"
+
+#: plugins/googledocsviewer/models.py:11
+msgid "File URL"
+msgstr "URL del archivo"
+
+#: plugins/googledocsviewer/models.py:11
+msgid "Specify the URL of an online document, for example a PDF or DOCX file."
+msgstr ""
+"Especifique la dirección URL de un documento en línea, por ejemplo, un "
+"archivo PDF o DOCX."
+
+#: plugins/googledocsviewer/models.py:12 plugins/iframe/models.py:12
+msgid "Width"
+msgstr "Ancho"
+
+#: plugins/googledocsviewer/models.py:12 plugins/iframe/models.py:12
+msgid "Specify the size in pixels, or a percentage of the container area size."
+msgstr ""
+"Especifique el tamaño en píxeles o un porcentaje del tamaño del área del "
+"contenedor."
+
+#: plugins/googledocsviewer/models.py:13 plugins/iframe/models.py:13
+msgid "Height"
+msgstr "Altura"
+
+#: plugins/googledocsviewer/models.py:13 plugins/iframe/models.py:13
+msgid "Specify the size in pixels."
+msgstr "Especifique el tamaño en píxeles."
+
+#: plugins/googledocsviewer/models.py:16 plugins/googledocsviewer/models.py:17
+msgid "Embedded document"
+msgstr "Documento incrustado"
+
+#: plugins/iframe/models.py:11
+msgid "Page URL"
+msgstr "URL de la página"
+
+#: plugins/iframe/models.py:16
+msgid "Iframe"
+msgstr "Iframe"
+
+#: plugins/iframe/models.py:17
+msgid "Iframes"
+msgstr "Iframes"
+
+#: plugins/markup/content_plugins.py:24
+msgid "Markup"
+msgstr "Marca"
+
+#: plugins/markup/models.py:36
+msgid "markup"
+msgstr "marca"
+
+#: plugins/markup/models.py:42 plugins/markup/models.py:43
+msgid "Markup code"
+msgstr "Código de marcas"
+
+#: plugins/markup/models.py:82
+#, python-format
+msgid "%s items"
+msgstr "%s elementos"
+
+#: plugins/oembeditem/fields.py:14
+msgid ""
+"Enter the URL of the online content to embed (e.g. a YouTube or Vimeo video, "
+"SlideShare presentation, etc..)"
+msgstr ""
+"Escriba la dirección URL del contenido en línea para incrustar (por ejemplo, "
+"un vídeo de YouTube o Vimeo, presentación SlideShare, etc.)"
+
+#: plugins/oembeditem/fields.py:21
+msgid "The URL is not valid for embedding content"
+msgstr "La URL no es válida para la incrustación de contenidos"
+
+#: plugins/oembeditem/models.py:17
+msgid "URL to embed"
+msgstr "URL para incrustar"
+
+#: plugins/oembeditem/models.py:18
+msgid "Max width"
+msgstr "Anchura máxima"
+
+#: plugins/oembeditem/models.py:19
+msgid "Max height"
+msgstr "Altura máxima"
+
+#: plugins/oembeditem/models.py:42 plugins/oembeditem/models.py:43
+msgid "Online media"
+msgstr "Media en línea"
+
+#: plugins/oembeditem/templates/admin/fluent_contents/plugins/oembeditem/admin_form.html:15
+msgid "Max size"
+msgstr "Tamaño máximo"
+
+#: plugins/oembeditem/templates/admin/fluent_contents/plugins/oembeditem/admin_form.html:16
+msgid "pixels"
+msgstr "píxeles"
+
+#: plugins/picture/models.py:16
+msgid "Left"
+msgstr "Izquierda"
+
+#: plugins/picture/models.py:17
+msgid "Center"
+msgstr "Centrar"
+
+#: plugins/picture/models.py:18
+msgid "Right"
+msgstr "Derecha"
+
+#: plugins/picture/models.py:21
+msgid "Image"
+msgstr "Imagen"
+
+#: plugins/picture/models.py:22
+msgid "Caption"
+msgstr "Leyenda"
+
+#: plugins/picture/models.py:23
+msgid "Align"
+msgstr "Alinear"
+
+#: plugins/picture/models.py:24
+msgid "URL"
+msgstr "URL"
+
+#: plugins/picture/models.py:27
+msgid "Picture"
+msgstr "Imagen"
+
+#: plugins/picture/models.py:28
+msgid "Pictures"
+msgstr "Imágenes"
+
+#: plugins/rawhtml/models.py:7 plugins/rawhtml/models.py:10
+#: plugins/rawhtml/models.py:11
+msgid "HTML code"
+msgstr "Código HTML"
+
+#: plugins/rawhtml/models.py:7
+msgid ""
+"Enter the HTML code to display, like the embed code of an online widget."
+msgstr ""
+"Ingrese el código HTML a mostrar, como el código de inserción de un widget "
+"en línea."
+
+#: plugins/sharedcontent/models.py:10 plugins/twitterfeed/models.py:10
+#: plugins/twitterfeed/models.py:31
+msgid "Title"
+msgstr "Título"
+
+#: plugins/sharedcontent/models.py:11
+msgid "Template code"
+msgstr "Código de la plantilla"
+
+#: plugins/sharedcontent/models.py:11
+msgid "This unique name can be used refer to this content in in templates."
+msgstr ""
+"Este nombre único puede ser utilizado para referirse a este contenido en las "
+"plantillas."
+
+#: plugins/sharedcontent/models.py:12
+msgid "Contents"
+msgstr "Contenidos"
+
+#: plugins/sharedcontent/models.py:17 plugins/sharedcontent/models.py:18
+#: plugins/sharedcontent/models.py:28 plugins/sharedcontent/models.py:31
+#: plugins/sharedcontent/models.py:32
+msgid "Shared content"
+msgstr "Contenido compartido"
+
+#: plugins/text/models.py:14
+msgid "text"
+msgstr "texto"
+
+#: plugins/text/models.py:17 plugins/text/models.py:18
+msgid "Text"
+msgstr "Texto"
+
+#: plugins/twitterfeed/models.py:10 plugins/twitterfeed/models.py:15
+#: plugins/twitterfeed/models.py:31 plugins/twitterfeed/models.py:36
+msgid "You may use Twitter markup here, such as a #hashtag or @username."
+msgstr ""
+"Usted puede utilizar un marcador de Twitter aquí, como un #hashtag o un "
+"@nombre_de_usuario."
+
+#: plugins/twitterfeed/models.py:12
+msgid "Twitter user"
+msgstr "Usuario de Twitter"
+
+#: plugins/twitterfeed/models.py:13 plugins/twitterfeed/models.py:34
+msgid "Number of results"
+msgstr "Número de resultados"
+
+#: plugins/twitterfeed/models.py:15 plugins/twitterfeed/models.py:36
+msgid "Footer text"
+msgstr "Texto de pie"
+
+#: plugins/twitterfeed/models.py:16 plugins/twitterfeed/models.py:37
+msgid "Include retweets"
+msgstr "Incluir retweets"
+
+#: plugins/twitterfeed/models.py:17 plugins/twitterfeed/models.py:38
+msgid "Include replies"
+msgstr "Incluir respuestas"
+
+#: plugins/twitterfeed/models.py:23 plugins/twitterfeed/models.py:24
+msgid "Recent twitter entries"
+msgstr "Entradas recientes de Twitter"
+
+#: plugins/twitterfeed/models.py:33
+msgid "Search for"
+msgstr "Buscar"
+
+#: plugins/twitterfeed/models.py:33
+msgid ""
+"<a href=\"https://support.twitter.com/articles/71577\" target=\"_blank"
+"\">Twitter search syntax</a> is allowed."
+msgstr ""
+"Se permite <a href=\"https://support.twitter.com/articles/71577\" target="
+"\"_blank\"> la sintaxis de búsqueda de Twitter</ a>."
+
+#: plugins/twitterfeed/models.py:44 plugins/twitterfeed/models.py:45
+msgid "Twitter search feed"
+msgstr "Búsqueda de Twitter hilo"
+
+#: plugins/twitterfeed/templates/plugins/twitterfeed/base.html:32
+msgid "loading tweets..."
+msgstr "cargando tweets"
+
+#: templates/admin/fluent_contents/contentitem/admin_form.html:12
+#: templates/admin/fluent_contents/contentitem/admin_form_without_labels.html:6
+msgid "There are no options to configure for this element."
+msgstr "No hay opciones de configuración para este elemento."
+
+#: templates/admin/fluent_contents/placeholder/inline_tabs.html:51
+msgid "Loading layout data..."
+msgstr "Cargando datos de diseño ..."
+
+#: templates/admin/fluent_contents/placeholder/inline_tabs.html:52
+msgid "Orphaned content"
+msgstr "Contenido huérfano"
+
+#: templates/admin/fluent_contents/placeholder/inline_tabs.html:79
+msgid "There are no placeholders in this template."
+msgstr "No hay espacios reservados en esta plantilla."
+
+#: templates/admin/fluent_contents/placeholderfield/controls.html:11
+msgid "Add"
+msgstr "Agregar"
+
+#: templates/admin/fluent_contents/placeholderfield/pane.html:3
+msgid "Placeholder empty"
+msgstr "Espacío reservado vacío"
+
+#: templates/admin/fluent_contents/placeholderfield/pane_tabbar.html:3
+msgid "This placeholder is empty"
+msgstr "Este espacio reservado esta vacío"
+
+#: templates/admin/fluent_contents/placeholderfield/widget.html:10
+msgid "No items added to this field yet."
+msgstr "No hay elementos añadidos a este campo aún."
+
+#: utils/validators.py:13
+msgid "Value should be a number or percentage."
+msgstr "El valor debe ser un número o un porcentaje."
